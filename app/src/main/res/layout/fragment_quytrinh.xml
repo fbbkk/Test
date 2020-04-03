@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hombackground"
+    android:orientation="vertical"
+    tools:context=".QuytrinhFragment">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập số câu hỏi"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/colorText"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edtNumQuyTrinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhập số câu hỏi tại đây"
+        android:inputType="numberDecimal"
+        android:textColor="@color/colorText" />
+
+    <Button
+        android:id="@+id/btnStartQT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bắt đầu thi"
+        android:textColor="@color/colorText"
+        android:textSize="18sp" />
+</LinearLayout>

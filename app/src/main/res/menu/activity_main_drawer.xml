@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_trangchu"
+            android:icon="@drawable/home"
+            android:title="Trang Chủ" />
+        <item
+            android:id="@+id/nav_quytrinh"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Quy Trình An Toàn" />
+        <item
+            android:id="@+id/nav_cv2945"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Công Văn 2945" />
+        <item
+            android:id="@+id/nav_nghidinh"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Nghị Định" />
+        <item
+            android:id="@+id/nav_thongtu"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Thông Tư" />
+        <item
+            android:id="@+id/nav_pccc"
+            android:icon="@drawable/ic_menu_send"
+            android:title="PCCC" />
+    </group>
+
+</menu>

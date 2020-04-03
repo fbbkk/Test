@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_trangchu">
+
+    <fragment
+        android:id="@+id/nav_trangchu"
+        android:name="communityuni.com.test1.TrangchuFragment"
+        android:label="Trang Chủ"
+        tools:layout="@layout/fragment_trangchu" />
+
+    <fragment
+        android:id="@+id/nav_quytrinh"
+        android:name="communityuni.com.test1.QuytrinhFragment"
+        android:label="Quy trình An toàn"
+        tools:layout="@layout/fragment_quytrinh" />
+
+    <fragment
+        android:id="@+id/nav_cv2945"
+        android:name="communityuni.com.test1.CV2954Fragment"
+        android:label="Công văn 2954"
+        tools:layout="@layout/fragment_cv2954"/>
+
+    <fragment
+        android:id="@+id/nav_nghidinh"
+        android:name="communityuni.com.test1.NghiDinhFragment"
+        android:label="Nghị định"
+        tools:layout="@layout/fragment_nghi_dinh" />
+
+    <fragment
+        android:id="@+id/nav_thongtu"
+        android:name="communityuni.com.test1.ThongtuFragment"
+        android:label="Thông tư"
+        tools:layout="@layout/fragment_thongtu" />
+
+    <fragment
+        android:id="@+id/nav_pccc"
+        android:name="communityuni.com.test1.PcccFragment"
+        android:label="PCCC"
+        tools:layout="@layout/fragment_pccc" />
+
+</navigation>
